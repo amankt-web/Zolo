@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zolo- Social Media Website</title>
+    <!--Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css" />
+    
+    
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <h2 class="log">Zolo</h2>
+        <div class="searchbar">
+        <i class="bi bi-search"></i>
+        <input type="search" placeholder="Search for creators, inspirations and projects">
+      </div>
+      <div class="create">
+        <label class="btn btn-primary" for="upload-post">Upload</label>
+        <div class="profile-photo">
+            <img src="images/pic.jpeg">
+        </div>
+      </div>
+      </div>
+    </nav>
+     <!--Main section--->
+     <main>
+        <div class="container">
+            <!--Left -->
+            <div class="left">
+                <a  class="profile">
+                    <div class="profile-photo">
+                        <img src="images/pic.jpeg" alt="Avatar">
+                    </div>
+                    <div class="handle">
+                        <h4>Aman Kumar</h4>
+                        <p class="text-muted">@aman</p>
+                    </div>
+                </a>
+                <!---Side bar -->
+                <div class="sidebar">
+                  <a  class="menu-item active ">
+                    <span><i class="bi bi-house-door-fill"></i></span><h3>Home</h3>
+                  </a>
+                  <a  class="menu-item ">
+                    <span><i class="bi bi-compass"></i></span><h3>Explore</h3>
+                  </a>
+                  <a  class="menu-item  ">
+                    <span><i class="bi bi-bell" id="notification"><small class="notification-count">9+
+                    </small></i></span><h3>Notifications</h3>
+                    <!--Notifications PoP-up-->
+                    <div class="notification-popup">
+                      <div>
+                        <div class="profile-photo">
+                          <img src="#">
+                        </div>
+                        <div class="notification-body">
+                          <b>Rahul Sharma</b> liked your post
+                          <small class="text-muted">1 hour ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="notification-popup">
+                      <div>
+                        <div class="profile-photo">
+                          <img src="#">
+                        </div>
+                        <div class="notification-body">
+                          <b>Mahira jha</b> commented on your post
+                          <small class="text-muted">1 days ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="notification-popup">
+                      <div>
+                        <div class="profile-photo">
+                          <img src="#">
+                        </div>
+                        <div class="notification-body">
+                          <b>James Haul</b> accepted your friend request
+                          <small class="text-muted">15 hours ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="notification-popup">
+                      <div>
+                        <div class="profile-photo">
+                          <img src="#">
+                        </div>
+                        <div class="notification-body">
+                          <b>Jhon burg</b> liked your post
+                          <small class="text-muted">3 days ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="notification-popup">
+                      <div>
+                        <div class="profile-photo">
+                          <img src="#">
+                        </div>
+                        <div class="notification-body">
+                          <b>Kanika Sharma</b> accepted your friend request
+                          <small class="text-muted">5 hours ago</small>
+                        </div>
+                      </div>
+                    </div>
+                    <!--end Notifications popup-->
+                  </a>
+                  <a  class="menu-item " id="messages-notifications">
+                    <span><i class="bi bi-chat-dots-fill" ><small class="notification-count">6</small></i></span><h3>Messages</h3>
+                  </a>
+                  <a  class="menu-item ">
+                    <span><i class="bi bi-bookmarks"></i></span><h3>Bookmarks</h3>
+                  </a>
+                  <a  class="menu-item ">
+                    <span><i class="bi bi-bar-chart"></i></span><h3>Analysis</h3>
+                  </a>
+                  <a  class="menu-item ">
+                    <span><i class="bi bi-palette" id ="ssstheme"></i></i></span><h3>Theme</h3>
+                  </a>
+                  <a  class="menu-item ">
+                    <span><i class="bi bi-gear"></i></span><h3>Settings</h3>
+                  </a> 
+                </div>
+                <!--End of Sidebar-->
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            <!--middle -->
+            <div class="middle">
+              <!---STORIES-->
+              <div class="stories">
+                <div class="story">
+                  <div class="profile-photo">
+                    <img src="images/pic.jpeg" alt="">
+                  </div>
+                  <p class="name">
+                    Your Story
+                  </p>
+                </div>
+                <div class="story">
+                  <div class="profile-photo">
+                    <img src="images/wes.jpeg" alt="">
+                  </div>
+                  <p class="name">
+                    Lilla James
+                  </p>
+                </div>
+                <div class="story">
+                  <div class="profile-photo">
+                    <img src="images/adi.jpg" alt="">
+                  </div>
+                  <p class="name">
+                    Nishant Kumar
+                  </p>
+                </div>
+                <div class="story">
+                  <div class="profile-photo">
+                    <img src="images/jennifer.jpg" alt="">
+                  </div>
+                  <p class="name">
+                    Ankit Raj
+                  </p>
+                </div>
+                <div class="story">
+                  <div class="profile-photo">
+                    <img src="images/sys.jpg" alt="">
+                  </div>
+                  <p class="name">
+                    Neha Kumari
+                  </p>
+                </div>
+                <div class="story">
+                  <div class="profile-photo">
+                    <img src="images/hads.jpg" alt="">
+                  </div>
+                  <p class="name">
+                    Anu sha
+                  </p>
+                </div>
+              </div>
+              <!-------End of Stories-->
+              <form class="create-post">
+                <div class="profile-photo">
+                  <img src="images/pic.jpeg" alt="Avatar">
+                </div>
+                <input type="text" placeholder="What's on your mind ? Aman" id ="create-post">
+                <input type="submit" value="Post" class="btn btn-primary">
+              </form>
+              <!--Feeds-->
+              <div class="feeds">
+                <!--Feed1-->
+                <div class="feed">
+                  <div class="head">
+                    <div class="user">
+                      <div class="profile-photo">
+                        <img src="images/123.jpg" alt="">
+                      </div>
+                      <div class="info">
+                        <h3>Rosy Salvet</h3>
+                        <small>Pune, India 15 Minutes ago</small>
+                      </div>
+                    </div>
+                    <span class="edit"><i class="bi bi-three-dots"></i></span>
+                  </div>
+
+                  <div class="photo">
+                    <img src="images/123.jpg">
+                  </div>
+                  <div class="action-button">
+                    <div class="interaction-buttons">
+                      <span><i class="bi bi-heart"></i></span>
+                      <span><i class="bi bi-chat"></i></span> 
+                      <span><i class="bi bi-share"></i></span>
+                    </div>
+                    <div class="bookmark">
+                      <span><i class="bi bi-bookmark"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="liked-by">
+                    <span><img src="images/123.jpg"></span>
+                    <span><img src="images/adi.jpg" ></span>
+                    <span><img src="images/jennifer.jpg" ></span>
+                    <p>Liked by <b>Henis Ritchie </b> and <b> 323 others</b></p>
+                  </div>
+                  <div class="caption">
+                    <p><b>Lorem Sha </b>Here the words to say is less!
+                      <span class="harsh-tag"> #lifestyle #beauty</span></p>
+                  </div>
+                  <div class="comments text-muted">View all 265 Comments</div>
+
+                </div>
+                <div class="feed">
+                  <div class="head">
+                    <div class="user">
+                      <div class="profile-photo">
+                        <img src="images/adi.jpg" alt="">
+                      </div>
+                      <div class="info">
+                        <h3>Shaver Phuphet</h3>
+                        <small>Mumbai, India 34 Minutes ago</small>
+                      </div>
+                    </div>
+                    <span class="edit"><i class="bi bi-three-dots"></i></span>
+                  </div>
+
+                  <div class="photo">
+                    <img src="images/adi.jpg">
+                  </div>
+                  <div class="action-button">
+                    <div class="interaction-buttons">
+                      <span><i class="bi bi-heart"></i></span>
+                      <span><i class="bi bi-chat"></i></span> 
+                      <span><i class="bi bi-share"></i></span>
+                    </div>
+                    <div class="bookmark">
+                      <span><i class="bi bi-bookmark"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="liked-by">
+                    <span><img src="images/123.jpg"></span>
+                    <span><img src="images/adi.jpg" ></span>
+                    <span><img src="images/jennifer.jpg" ></span>
+                    <p>Liked by <b>Mark Zerberg</b> and <b> 412 others</b></p>
+                  </div>
+                  <div class="caption">
+                    <p><b>Shaver Phupet </b>Performing the way there weather performs.
+                      <span class="harsh-tag"> #lifestyle #beauty</span></p>
+                  </div>
+                  <div class="comments text-muted">View all 265 Comments</div>
+
+                </div>
+                <div class="feed">
+                  <div class="head">
+                    <div class="user">
+                      <div class="profile-photo">
+                        <img src="images/sys.jpg" alt="">
+                      </div>
+                      <div class="info">
+                        <h3>Rony Marmet</h3>
+                        <small>NY, USA 1 hour ago</small>
+                      </div>
+                    </div>
+                    <span class="edit"><i class="bi bi-three-dots"></i></span>
+                  </div>
+
+                  <div class="photo">
+                    <img src="images/sys.jpg">
+                  </div>
+                  <div class="action-button">
+                    <div class="interaction-buttons">
+                      <span><i class="bi bi-heart"></i></span>
+                      <span><i class="bi bi-chat"></i></span> 
+                      <span><i class="bi bi-share"></i></span>
+                    </div>
+                    <div class="bookmark">
+                      <span><i class="bi bi-bookmark"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="liked-by">
+                    <span><img src="images/123.jpg"></span>
+                    <span><img src="images/adi.jpg" ></span>
+                    <span><img src="images/jennifer.jpg" ></span>
+                    <p>Liked by <b>Kelvin klen </b> and <b> 517 others</b></p>
+                  </div>
+                  <div class="caption">
+                    <p><b>Rony Marmet </b>Guys Love to perform on the stage , gives a different vibe.
+                      <span class="harsh-tag"> #lifestyle #beauty</span></p>
+                  </div>
+                  <div class="comments text-muted">View all 265 Comments</div>
+
+                </div>
+                <div class="feed">
+                  <div class="head">
+                    <div class="user">
+                      <div class="profile-photo">
+                        <img src="images/wes.jpeg" alt="">
+                      </div>
+                      <div class="info">
+                        <h3>George larvey</h3>
+                        <small>Bengaluru, India 3 hours ago</small>
+                      </div>
+                    </div>
+                    <span class="edit"><i class="bi bi-three-dots"></i></span>
+                  </div>
+
+                  <div class="photo">
+                    <img src="images/wes.jpeg">
+                  </div>
+                  <div class="action-button">
+                    <div class="interaction-buttons">
+                      <span><i class="bi bi-heart"></i></span>
+                      <span><i class="bi bi-chat"></i></span> 
+                      <span><i class="bi bi-share"></i></span>
+                    </div>
+                    <div class="bookmark">
+                      <span><i class="bi bi-bookmark"></i></span>
+                    </div>
+                  </div>
+
+                  <div class="liked-by">
+                    <span><img src="images/123.jpg"></span>
+                    <span><img src="images/adi.jpg" ></span>
+                    <span><img src="images/jennifer.jpg" ></span>
+                    <p>Liked by <b>Denyal Liberain </b> and <b> 926 others</b></p>
+                  </div>
+                  <div class="caption">
+                    <p><b>George larvey </b>Here the words to say is less!
+                      <span class="harsh-tag"> #lifestyle #beauty</span></p>
+                  </div>
+                  <div class="comments text-muted">View all 265 Comments</div>
+                  <!--end of feed-->
+                </div>
+                <!---end of feeds-->
+              </div>
+
+            </div>
+            <!--end of middle-->
+            <!--right -->
+            <div class="right">
+              <div class="message">
+                <div class="heading">
+                  <h4>Messages</h4>
+                  <span><i class="bi bi-pencil-square"></i></span>
+                </div>
+                <!---Search bar-->
+                <div class="search-bar">
+                  <i class="bi bi-search"></i>
+                  <input type="search" placeholder="search messages" id = "message-search">
+                </div>
+                <!---Message Category-->
+                <div class="category">
+                  <h6 class ="active">Primary</h6>
+                  <h6 >General</h6>
+                  <h6 class ="messsage-requests">Request(2)</h6>
+                </div>
+                <!--Message-->
+                <div class="message">
+                  <div class="profile-photo">
+                    <img src="images/jennifer.jpg">
+                  </div>
+                  <div class="message-body">
+                    <h5>Edem Quist</h5>
+                    <p class="text-muted">Just Woke up bruh</p>
+                  </div>
+                </div>
+                <div class="message">
+                  <div class="profile-photo">
+                    <img src="images/hads.jpg">
+                  </div>
+                  <div class="message-body">
+                    <h5>Selena Super</h5>
+                    <p class="text-muted">Hey, Bro How are you?</p>
+                  </div>
+                </div>
+              </div>
+              
+              <!--End of messages-->
+              <!--Friend Request-->
+              <div class="friend-requests">
+                <h4>Requests</h4>
+                <div class="request">
+                  <div class="info">
+                    <div class="profile-photo">
+                      <img src="images/hads.jpg">
+                    </div>
+                  </div>
+                  <h5>Hii Rancho</h5>
+                  <p class="text-muted">
+                    8 mutual friends
+                  </p>
+                </div>
+              </div>
+              <div class="action">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn ">Decline</button>
+              </div>
+            </div>
+            <!--End of right-->
+        </div>
+     </main>
+     <!--Theme customization-->
+     <div class="customize-theme">
+      <div class="card">
+        <h2>Cutomize your view </h2>
+        <p class="text-muted">Manage Your font size, color and background.</p>
+        <!----Fontsizes-->
+        <div class="font-size">
+          <h4>Fontsize</h4>
+          <div>
+            <h6>Aa</h6>
+          </div>
+          <div class="choose-size">
+            <span class="font-size-1"></span>
+            <span class="font-size-2 active"></span>
+            <span class="font-size-3"></span>
+            <span class="font-size-4"></span>
+            <span class="font-size-5"></span>
+          </div>
+          <h3>Aa</h3>
+        </div>
+      
+      <!---Primary colors-->
+      <div class="color">
+         <h4>Color</h4>
+         <div class="choose-color">
+          <span class="color-1 active"></span>
+          <span class="color-2 "></span>
+          <span class="color-3 "></span>
+          <span class="color-4 "></span>
+          <span class="color-5 "></span>
+         </div>
+      </div>
+      <!--Background Colors-->
+      <div class="background">
+        <h4>Background</h4>
+        <div class="choose-bg">
+          <div class="bg-1 active">
+            <span></span>
+            <h5 for ="bg-1">Light</h5>
+          </div>
+          <div class="bg-2">
+            <span></span>
+            <h5 for ="bg-2">Dim</h5>
+          </div>
+          <div class="bg-3">
+            <span></span>
+            <h5 for ="bg-1">Lights out</h5>
+          </div>
+        </div>
+        
+      </div>
+      </div>
+     </div>
+     
+     <script src ="index.js"></script>
+
+  </body>
+</html>
